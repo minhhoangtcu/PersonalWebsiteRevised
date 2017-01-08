@@ -1,0 +1,28 @@
+.NavBar__Container {
+  /* Style the box */
+  background-color: #2B304C;
+  width: 100vw;
+  height: 50px;
+
+  /* Style items inside */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.NavBar__Button {
+  color: #DBDBDB;
+  font-size: 24px;
+  text-decoration: none;
+
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.NavBar__Button:hover {
+  color: white;
+}
+
+.NavBar__Button--active {
+  color: white;
+}

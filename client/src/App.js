@@ -1,9 +1,11 @@
 import React, { Component } from 'react';
+import NavBar from './components/NavBar.js';
+import * as frontPageConstants from './data/frontpage.js';
 
 class App extends Component {
   render() {
     return (
-      <h1>Welcome to Minh's Portfolio</h1>
+      <NavBar links={frontPageConstants.LINKS}/>
     );
   }
 }
